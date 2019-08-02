@@ -3,14 +3,13 @@ $(window).load (function() {
     var imageWidth = image.width();
     var imageHeight = image.height();
 
-
+    
     
     $('.carouselWrapper').css({
-        width: '100%',
+        width: imageWidth,
         height: imageHeight,
     });
 
-    
     
     var totalWidthOfContainer = image.length * imageWidth;
 
